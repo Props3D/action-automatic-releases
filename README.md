@@ -46,7 +46,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "slord399/action-automatic-releases@v1.0.1"
+      - uses: "Props3D/action-automatic-releases@v1.0.1"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
@@ -78,7 +78,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "slord399/action-automatic-releases@v1.0.1"
+      - uses: "Props3D/action-automatic-releases@v1.0.1"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
@@ -117,7 +117,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "slord399/action-automatic-releases@v1.0.1"
+      - uses: "Props3D/action-automatic-releases@v1.0.1"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
@@ -160,7 +160,7 @@ The GitHub Actions framework allows you to trigger this (and other) actions on _
 If you wish to live on the bleeding edge you may use a stable release instead. See [releases](../../releases/latest) for the available versions.
 
 ```yaml
-- uses: "slord399/action-automatic-releases@<VERSION>"
+- uses: "Props3D/action-automatic-releases@<VERSION>"
 ```
 
 ## How to get help
